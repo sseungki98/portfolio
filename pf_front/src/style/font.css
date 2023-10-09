@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Popfine";
+  src: url("/public/fonts/POPFINE\ Italic.ttf");
+}
+
+@font-face {
+  font-family: "GmarketBold";
+  src: url("/public/fonts/GmarketSansTTFBold.ttf");
+}
+
+@font-face {
+  font-family: "GmarketMedium";
+  src: url("/public/fonts/GmarketSansTTFMedium.ttf");
+}
+
+@font-face {
+  font-family: "GmarketLight";
+  src: url("/public/fonts/GmarketSansTTFLight.ttf");
+}
+
+@font-face {
+  font-family: "NotoSansBold";
+  src: url("/public/fonts/NotoSansKR-Bold.ttf");
+}
+
+.font_popfine {
+  font-family: "Popfine";
+  font-size: 50px;
+}
+
+.font_GBold {
+  font-family: "GmarketBold";
+}
+
+.font_GMedium {
+  font-family: "GmarketMedium";
+}
+
+.font_GLight {
+  font-family: "GmarketLight";
+}
+
+.font_NotoBold {
+  font-family: "NotoSansBold";
+}
