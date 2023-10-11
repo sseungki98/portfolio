@@ -69,8 +69,8 @@ const Container = styled.div`
   }
   position: absolute;
   transform: translateY(70%);
-  margin-left: 20rem;
-  gap: 100px;
+  margin-left: 13rem;
+  gap: 200px;
   .mail {
     border-radius: 50%;
   }

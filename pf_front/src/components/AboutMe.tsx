@@ -17,7 +17,6 @@ function AboutMe() {
           </p>
           <p>Focus In Web FrontEnd</p>
           <p>No Pain, No Gain</p>
-          <p>Interested in Cloud, CI/CD</p>
         </Container>
       </Wrapper>
     </Box>

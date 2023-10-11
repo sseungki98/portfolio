@@ -43,3 +43,21 @@
 .font_NotoBold {
   font-family: "NotoSansBold";
 }
+
+.left-arrow {
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  cursor: pointer;
+}
+
+.right-arrow {
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  cursor: pointer;
+}

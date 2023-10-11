@@ -30,8 +30,6 @@ function App() {
         page = lastPage;
         setNavState(page);
       }
-      console.log(e.deltaY);
-      console.log(window.innerHeight);
       wrap!.style.top = page * -100 + "vh";
     };
 
@@ -47,7 +45,7 @@ function App() {
   }, []);
   return (
     <Wrapper id="wrap" ref={wrapRef}>
-      <Navigator state={navState} setter={setNavState} wrapRef={wrapRef}/>
+      <Navigator state={navState} setter={setNavState} wrapRef={wrapRef} />
       <div className="container">
         <AboutMe />
       </div>
@@ -71,4 +69,3 @@ const Wrapper = styled.div`
   transition: 0.5s;
   overflow: hidden;
 `;
-
